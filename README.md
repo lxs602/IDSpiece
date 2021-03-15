@@ -2,9 +2,10 @@
 
 # IDSpiece
 
-漢字/汉字-Tokenizer with Ideographic Description Sequence.
+漢字/汉字-Tokenizer with Ideographic Description Sequence from [CHISE-IDS](https://www.chise.org/ids/).
 
-* Nine (U+2FF0, U+2FF1, U+2FF5 to U+2FFA) of twelve IDCs are used.
+* Only nine IDCs (U+2FF0, U+2FF1, U+2FF5 to U+2FFA) are used.
+* IDCs never occur instantly after another IDC.
 * Instantly after IDCs, Kanxi Radicals and Supplement (U+2E80 to U+2FD5) are preferred.
 * Otherwise, CJK Unified Ideographs and Extension A (U+3400 to U+9FFC) are preferred.
 
