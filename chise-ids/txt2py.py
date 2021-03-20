@@ -64,7 +64,6 @@ while True:
       m="⿱"+m[1]+"⿱"+m[2:]
     for r in rad:
       m=m.replace(r,rad[r])
-    c=False
     if len(m)==1 and m!=t[1]:
       if ord(m)<65536:
         if m in cjk0:
@@ -75,6 +74,12 @@ while True:
         m=cjk2[m]
       elif m in cjk3:
         m=cjk3[m]
+    if len(m)>4:
+      if m[1:4] in rev:
+        c=rev[m[1:4]]
+        if ord(c)<65536:
+          m=m[0]+c+m[4:]
+    c=False
     if len(m)==3:
       if m[0] in ids:
         if ord(m[1])<40960:
