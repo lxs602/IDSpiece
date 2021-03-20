@@ -854,6 +854,7 @@
 &CDP-8C6A; 𰧭
 &CDP-8CAC; 𠀉
 &CDP-8D40; 𫷄
+&CDP-8D49; 𨊠
 &CDP-8D4A; 𫢉
 &CDP-8D50; 𰯲
 &CDP-8D62; 𠂛
