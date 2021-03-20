@@ -835,6 +835,7 @@
 &CDP-8958; 月
 &CDP-895F; 匕
 &CDP-8968; 刂
+&CDP-8970; 羊
 &CDP-89C8; 𠃍
 &CDP-89D7; 卅
 &CDP-89D9; 𭠍
@@ -847,6 +848,7 @@
 &CDP-8BD0; 叀
 &CDP-8BE9; 𡗗
 &CDP-8C64; 务
+&CDP-8C68; 𭷔
 &CDP-8C6A; 𰧭
 &CDP-8CAC; 𠀉
 &CDP-8D40; 𫷄
