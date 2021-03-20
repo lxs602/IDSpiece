@@ -5,7 +5,7 @@ URL="https://github.com/KoichiYasuoka/IDSpiece"
 
 setuptools.setup(
   name="idspiece",
-  version="0.4.4",
+  version="0.5.0",
   description="Ideographic Tokenizer with CHISE-IDS",
   long_description=long_description,
   long_description_content_type="text/markdown",
