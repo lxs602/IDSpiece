@@ -45,6 +45,14 @@ while True:
   except:
     quit()
   if not s.startswith(";;"):
+    i=s.find("[")
+    while i>=0:
+      j=s.find("]",i)
+      if j-i==2:
+        s=s.replace(s[i:j+1],"")
+        i=s.find("[",i)
+      else:
+        i=s.find("[",i+1)
     i=s.find("&")
     while i>=0:
       j=s.find(";",i)
